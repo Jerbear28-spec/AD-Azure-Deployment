@@ -1,9 +1,9 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img width="219" height="147" alt="50" src="https://github.com/user-attachments/assets/35714237-f7e3-4855-9df9-7942df66ded7" />
 </p>
 
 <h1 align="center">Creating an Active Directory Domain Using Vitual Machines (Microsoft Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines the implementation of an Active Directory domain using Azure virtual machines. This tutorial <br />
 
 <h2>Environments and Technologies Used</h2>
 
