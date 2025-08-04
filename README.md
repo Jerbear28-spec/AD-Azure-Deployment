@@ -45,6 +45,34 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 <h3>Create Domain Controller</h3>
 <p>The next step will be to create a virtual machine that will be used as the Domain Controller. </p>
 
+<p align="center">
+  <img width="774" height="693" alt="DC1create" src="https://github.com/user-attachments/assets/2fdd7db7-16da-4f4b-b696-a0e96c086e84" />
+</p>
+
+<p>Text</p>
+
+<p align="center">
+  <img width="771" height="64" alt="DC1image" src="https://github.com/user-attachments/assets/200b28e6-78fb-4e90-a072-01527fecb599" />
+</p>
+
+<p>text</p>
+
+<p align="center">
+  <img width="762" height="248" alt="DC1adminacct" src="https://github.com/user-attachments/assets/f707a076-00e8-44e6-8b9b-f45ab2e98ffb" />
+</p>
+
+<p>text</p>
+
+<p align="center">
+  <img width="767" height="273" alt="DC1portrules" src="https://github.com/user-attachments/assets/36720fbd-28ba-4e7b-a2dd-696c8cf664c9" />
+</p>
+
+<p>text</p>
+
+<p align="center">
+  <img width="755" height="183" alt="DC1network" src="https://github.com/user-attachments/assets/fe5d9229-03be-44f7-bc8a-40239abb4acd" />
+</p>
+
 <h3>Create Client Virtual Machine</h3>
 <p>ABC</p>
 
