@@ -26,9 +26,22 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 - Step 3: User Account Creation 
 - Step 4: Group Policy and Account Management
 
-<h2>Creation of Active Directory Infrastructure</h2>
+<h2>Step 1: Creation of Active Directory Infrastructure</h2>
 
+<h3>Create Resource Group</h3>
+<p>ABC</p>
 
+<h3>Create Virtual Network</h3>
+<p>ABC</p>
 
+<h3>Create Domain Controller</h3>
+<p>ABC</p>
 
+<h3>Create Client Virtual Machine</h3>
+<p>ABC</p>
 
+<h2>Step 2: Deployment of Active Directory on Domain Controller</h2>
+
+<h2>Step 3: User Account Creation</h2>
+
+<h2>Step 4: Group Policy and Accont Management</h2>
