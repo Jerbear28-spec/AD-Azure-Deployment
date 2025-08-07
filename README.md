@@ -74,9 +74,57 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 </p>
 
 <h3>Create Client Virtual Machine</h3>
-<p>ABC</p>
+<p>Create a new virtual machine, place it in the same resource group, and label it appropriately.</p>
 
-<h2>Step 2: Deployment of Active Directory on Domain Controller</h2>
+<p align="center">
+<img width="841" height="512" alt="clientcreate" src="https://github.com/user-attachments/assets/b4122312-488a-4fd4-bf75-d2a1eaacd1d4" />
+</p>
+
+<p>For the image, choose Windows 10 Pro, and one of the VM sizes recommended by the image publisher.</p>
+
+<p align="center">
+<img width="752" height="255" alt="clientimageandsize" src="https://github.com/user-attachments/assets/d181e417-ac0b-405e-b8d1-cbe64517ad23" />
+</p>
+
+<p>Use the same admin credentials that were used for the domain controller. Leave the default port rules to provide access to the VM.</p>
+
+<p align="center">
+<img width="774" height="517" alt="clientadminportrules" src="https://github.com/user-attachments/assets/88982b0d-8274-4863-9410-2841dca08c0b" />
+</p>
+
+<p>For the virtual network, select the one that was created earlier. The subnet configuration should be the same.</p>
+
+<p align="center">
+<img width="756" height="103" alt="clientvnet" src="https://github.com/user-attachments/assets/87c24f7c-792c-472a-948e-aabc3e588381" />
+</p>
+
+<h2>Step 2: IP Address Configuration</h2>
+
+<h3>Change Domain Controller's Private IP to "Static"</h3>
+
+<p>In the Azure portal, click on the Domain Controller VM. Navigate to "Network Settings" under the Networking tab. </p>
+
+<p align="center">
+<img width="258" height="765" alt="DCsettings" src="https://github.com/user-attachments/assets/2bcf32d5-153d-411f-9a85-72c20fb20aba" />
+</p>
+
+<p>Click on the IP configuration for this virtual machine.</p>
+
+<p align="center">
+<img width="1050" height="400" alt="Dcsettings2" src="https://github.com/user-attachments/assets/62c2b112-c48f-4d10-be9e-44b21a06f732" />
+</p>
+
+<p>The default name for the IP configuration should be 'ipconfig1". Click on it to edit the settings.</p>
+
+<p align="center">
+<img width="854" height="484" alt="dcsettings3" src="https://github.com/user-attachments/assets/bd796a35-5bff-4639-9b78-1e340427a23c" />
+</p>
+
+<p>Change the Private IP Addressing settings from "dynamic" to "static." This will keep the Domain Controller's private IP address from changing</p>
+
+<p align="center">
+<img width="566" height="616" alt="dcsettings4" src="https://github.com/user-attachments/assets/c1646310-4b21-4ee2-a386-0ffaffe35713" />
+</p>
 
 <h2>Step 3: User Account Creation</h2>
 
