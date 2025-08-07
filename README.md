@@ -2,7 +2,7 @@
 <img width="219" height="147" alt="50" src="https://github.com/user-attachments/assets/35714237-f7e3-4855-9df9-7942df66ded7" />
 </p>
 
-<h1 align="center">Creating an Active Directory Domain Using Microsoft Azure Vitual Machines</h1>
+<h1 align="center">Creating an Active Directory Domain Using Microsoft Azure Virtual Machines</h1>
 
 <h2 align="center">Project Overview</h2>
 This tutorial outlines the implementation of an Active Directory domain using Azure virtual machines. In this lab, a virtual machine running Windows Server 2022 will be created and used as a Domain Controller. A Windows 10 virtual machine will be created and used as a "client" for this Active Directory deployment. User accounts will be created and managed on the Domain Controller, and these accounts will be able to login on this client virtual machine. This tutorial will assume a basic understanding of the Microsoft Azure Portal. <br />
@@ -100,7 +100,7 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 
 <h2>Step 2: IP Address Configuration</h2>
 
-<h3>Change Domain Controller's Private IP to "Static"</h3>
+<h3>Change Domain Controller's Private IP Address to "Static"</h3>
 
 <p>In the Azure portal, click on the Domain Controller VM. Navigate to "Network Settings" under the Networking tab. </p>
 
@@ -120,10 +120,26 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 <img width="854" height="484" alt="dcsettings3" src="https://github.com/user-attachments/assets/f4ec2870-b17f-4911-b661-f6fe9e3d2cf0" />
 </p>
 
-<p>Change the Private IP Addressing settings from "dynamic" to "static." This will keep the Domain Controller's private IP address from changing</p>
+<p>Change the Private IP Addressing settings from "dynamic" to "static." This will keep the Domain Controller's private IP address from changing within the virtual network.</p>
 
 <p align="center">
 <img width="566" height="616" alt="dcsettings4" src="https://github.com/user-attachments/assets/b622bd18-ac46-4c04-9c9d-895465cb690a" />
+</p>
+
+<h3>Manually Change the Client Virtual Machines DNS Configuration</h3>
+
+<p>text</p>
+
+<p align="center">
+  pic
+</p>
+
+<p align="center">
+  pic
+</p>
+
+<p align="center">
+  pic
 </p>
 
 <h2>Step 3: User Account Creation</h2>
