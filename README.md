@@ -111,19 +111,19 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 <p>Click on the IP configuration for this virtual machine.</p>
 
 <p align="center">
-<img width="1050" height="400" alt="Dcsettings2" src="https://github.com/user-attachments/assets/62c2b112-c48f-4d10-be9e-44b21a06f732" />
+<img width="1050" height="400" alt="Dcsettings2" src="https://github.com/user-attachments/assets/fa372cd2-87c1-4b8b-a7c2-6f297e2f06f6" />
 </p>
 
 <p>The default name for the IP configuration should be 'ipconfig1". Click on it to edit the settings.</p>
 
 <p align="center">
-<img width="854" height="484" alt="dcsettings3" src="https://github.com/user-attachments/assets/bd796a35-5bff-4639-9b78-1e340427a23c" />
+<img width="854" height="484" alt="dcsettings3" src="https://github.com/user-attachments/assets/f4ec2870-b17f-4911-b661-f6fe9e3d2cf0" />
 </p>
 
 <p>Change the Private IP Addressing settings from "dynamic" to "static." This will keep the Domain Controller's private IP address from changing</p>
 
 <p align="center">
-<img width="566" height="616" alt="dcsettings4" src="https://github.com/user-attachments/assets/c1646310-4b21-4ee2-a386-0ffaffe35713" />
+<img width="566" height="616" alt="dcsettings4" src="https://github.com/user-attachments/assets/b622bd18-ac46-4c04-9c9d-895465cb690a" />
 </p>
 
 <h2>Step 3: User Account Creation</h2>
