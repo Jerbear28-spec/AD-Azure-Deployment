@@ -131,15 +131,25 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 <p>text</p>
 
 <p align="center">
-  pic
+<img width="351" height="334" alt="clientdns1" src="https://github.com/user-attachments/assets/97924e07-154d-45fb-95b4-f08ba100514c" />
 </p>
 
-<p align="center">
-  pic
-</p>
+<p>text</p>
 
 <p align="center">
-  pic
+  <img width="1202" height="934" alt="clientdns2" src="https://github.com/user-attachments/assets/d205cc9f-099d-4669-b015-623b4cf4bd82" />
+</p>
+
+<p>text</p>
+
+<p align="center">
+  <img width="1202" height="934" alt="clientdns3" src="https://github.com/user-attachments/assets/bde4bc49-37e7-4b59-bb03-013fc72b303a" />
+</p>
+
+<p>text</p>
+
+<p align="center">
+  <img width="1202" height="934" alt="clientdns4" src="https://github.com/user-attachments/assets/56d1d5e9-7f67-495b-a448-822a86ec8ce3" />
 </p>
 
 <h2>Step 3: User Account Creation</h2>
