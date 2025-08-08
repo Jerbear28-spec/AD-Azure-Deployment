@@ -22,8 +22,8 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 <h2>Deployment and Configuration Overview</h2>
 
 - Step 1: Creation of Active Directory Infrastructure
-- Step 2: Deployment of Active Directory on Domain Controller
-- Step 3: User Account Creation 
+- Step 2: IP Address Configuration
+- Step 3: Deployment of Active Directory on Domain Controller
 - Step 4: Group Policy and Account Management
 
 <h2>Step 1: Creation of Active Directory Infrastructure</h2>
@@ -152,6 +152,58 @@ This tutorial outlines the implementation of an Active Directory domain using Az
   <img width="1202" height="934" alt="clientdns4" src="https://github.com/user-attachments/assets/56d1d5e9-7f67-495b-a448-822a86ec8ce3" />
 </p>
 
-<h2>Step 3: User Account Creation</h2>
+<h2>Step 3: Deployment of Active Directory on Domain Controller</h2>
+
+<p>Use Remote Desktop to connect to Domain Controller and login with the Admin credentials that were created earlier.</p>
+
+<p align="center">
+<img width="351" height="334" alt="clientdns1" src="https://github.com/user-attachments/assets/9fa7a74f-1fd3-4858-aa09-531783559cea" />
+</p>
+
+<p>The Windows Server dashboard should open automatically after login. From the dashboard, click on "Add Roles and Features".</p>
+
+<p align="center">
+<img width="1202" height="934" alt="deployAD1" src="https://github.com/user-attachments/assets/48a97d33-d7a6-4179-abc6-fb1cd96501a1" />
+</p>
+
+<p>Click next on the "Before you begin" page...</p>
+
+<p align="center">
+<img width="1202" height="934" alt="deployAD2" src="https://github.com/user-attachments/assets/793bd41f-ca17-4109-b823-28f9383f2be1" />
+</p>
+
+<p>Selct Role-based or feature-based installation</p>
+
+<p align="center">
+<img width="1202" height="934" alt="deployAD3" src="https://github.com/user-attachments/assets/ed19744c-aeaf-4964-9fd3-744834795c91" />
+</p>
+
+<p>Select the server for the installation (there should only be one option.)</p>
+
+<p align="center">
+<img width="1202" height="934" alt="deployAD4" src="https://github.com/user-attachments/assets/ed0550ac-d84d-47bc-8ca7-fa93270bc82c" />
+</p>
+
+<p>Select "Active Directory Domain Services" in the list of available roles. Click "next", then "Install".</p>
+
+<p align="center">
+<img width="1202" height="934" alt="deployAD5" src="https://github.com/user-attachments/assets/7e03e2b3-bb66-4553-b77b-83a97c9b0ac8" />
+</p>
+
+<p align="center">
+  <img width="1202" height="934" alt="deployAD6" src="https://github.com/user-attachments/assets/fd269dce-d1b2-48de-8fb9-7f68d3a20c1c" />
+</p>
+
+<p>
+  <img width="1202" height="934" alt="deployAD7" src="https://github.com/user-attachments/assets/7dac1f19-5af8-4557-9517-aee4f2e531eb" />
+</p>
+
+<p>
+  <img width="1202" height="934" alt="deployAD8" src="https://github.com/user-attachments/assets/39e3f72a-fce6-49f6-a37b-bf39207e7013" />
+</p>
+
+<p>
+  <img width="1202" height="934" alt="deployAD9" src="https://github.com/user-attachments/assets/034e9a7e-a4b8-4381-8a4d-98b6a8d9de30" />
+</p>
 
 <h2>Step 4: Group Policy and Accont Management</h2>
