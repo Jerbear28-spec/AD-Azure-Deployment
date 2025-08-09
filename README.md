@@ -23,7 +23,7 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 - Step 1: Creation of Active Directory Infrastructure
 - Step 2: IP Address Configuration
 - Step 3: Deployment of Active Directory on Domain Controller
-- Step 4: Group Policy and Account Management
+- Step 4: Account Creation / Group Policy Management
 
 <h2>Step 1: Creation of Active Directory Infrastructure</h2>
 
