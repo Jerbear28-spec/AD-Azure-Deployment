@@ -235,12 +235,46 @@ This tutorial outlines the implementation of an Active Directory domain using Az
   <img width="299" height="149" alt="b4" src="https://github.com/user-attachments/assets/1e7df63e-dcb7-46c9-a7bb-d39fe3f62493" />
 </p>
 
-<h2>Step 4: Group Policy and Account Management</h2>
+<h2>Step 4: Account Creation / Group Policy Management</h2>
 
-<h3>Account Creation / Management</h3>
+<h3>Account Creation</h3>
 
-<p>On the</p>
+<p>text</p>
+<p align="center">
+  <img width="962" height="748" alt="a1" src="https://github.com/user-attachments/assets/19902815-7c0a-4629-bf3a-f2043aefb14a" />
+</p>
 
+<p>text</p>
+<p align="center">
+  <img width="962" height="748" alt="a2" src="https://github.com/user-attachments/assets/2d4ba79b-be39-4841-b342-ed35b959b902" />
+</p>
 
+<p>text</p>
+<p align="center">
+  <img width="962" height="748" alt="a3" src="https://github.com/user-attachments/assets/d19a12e3-3bd3-4e11-b344-0d74dbfe9450" />
+</p>
 
+<p>text</p>
+<p align="center">
+  <img width="962" height="748" alt="a4" src="https://github.com/user-attachments/assets/0ed17e22-50d5-427c-85bb-13094b8d09a7" />
+</p>
 
+<p>text</p>
+<p align="center">
+  <img width="962" height="748" alt="a5" src="https://github.com/user-attachments/assets/51a89c71-a8c0-4b46-adca-b6488b7615dc" />
+</p>
+
+<p>text</p>
+<p align="center">
+  <img width="962" height="748" alt="a6" src="https://github.com/user-attachments/assets/8f97d0fe-0cd3-4043-84c1-d5b5eb36eaac" />
+</p>
+
+<p>text</p>
+<p align="center">
+  <img width="962" height="748" alt="a7" src="https://github.com/user-attachments/assets/6f1f55b9-ee22-45db-ba6d-aa6f82e34f3b" />
+</p>
+
+<p>text</p>
+<p align="center">
+  <img width="962" height="748" alt="a8" src="https://github.com/user-attachments/assets/bd27915d-dc72-4196-b7e5-b259cfa5225f" />
+</p>
