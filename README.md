@@ -214,4 +214,34 @@ This tutorial outlines the implementation of an Active Directory domain using Az
   <img width="1202" height="934" alt="deployAD9" src="https://github.com/user-attachments/assets/034e9a7e-a4b8-4381-8a4d-98b6a8d9de30" />
 </p>
 
+<h3>Add Client Virtual Machine to the New Domain</h3>
+
+<p>text</p>
+<p align="center">
+  
+</p>
+
+<p>text</p>
+<p align="center">
+  
+</p>
+
+<p>text</p>
+<p align="center">
+  
+</p>
+
+<p>text</p>
+<p align="center">
+  
+</p>
+
 <h2>Step 4: Group Policy and Account Management</h2>
+
+<h3>Account Creation / Management</h3>
+
+<p>On the</p>
+
+
+
+
