@@ -237,44 +237,44 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 
 <h2>Step 4: Account Creation / Group Policy Management</h2>
 
-<h3>Account Creation</h3>
+<h3>Create an Admin Account within Domain</h3>
 
-<p>text</p>
+<p>Connect to the Domain Controller using Remote Desktop. From the Start menu, navigate to "Active Directory Users and Computers" in the Windows Administrative Tools folder.</p>
 <p align="center">
   <img width="962" height="748" alt="a1" src="https://github.com/user-attachments/assets/19902815-7c0a-4629-bf3a-f2043aefb14a" />
 </p>
 
-<p>text</p>
+<p>Click on the Domain directory. Within this folder, right-click and create a new "Organization Unit".</p>
 <p align="center">
   <img width="962" height="748" alt="a2" src="https://github.com/user-attachments/assets/2d4ba79b-be39-4841-b342-ed35b959b902" />
 </p>
 
-<p>text</p>
+<p>Create an appropriate name for a folder for Admin Users. There is an option for protecting this container from accidental deletion.</p>
 <p align="center">
   <img width="962" height="748" alt="a3" src="https://github.com/user-attachments/assets/d19a12e3-3bd3-4e11-b344-0d74dbfe9450" />
 </p>
 
-<p>text</p>
+<p>Within this new container, right-click and create a new User.</p>
 <p align="center">
   <img width="962" height="748" alt="a4" src="https://github.com/user-attachments/assets/0ed17e22-50d5-427c-85bb-13094b8d09a7" />
 </p>
 
-<p>text</p>
+<p>Input the information for a new Admin user. The "User logon name" will be used to login to the client VM.</p>
 <p align="center">
   <img width="962" height="748" alt="a5" src="https://github.com/user-attachments/assets/51a89c71-a8c0-4b46-adca-b6488b7615dc" />
 </p>
 
-<p>text</p>
+<p>Create a password for this user. There are a few options available for this password/account.</p>
 <p align="center">
   <img width="962" height="748" alt="a6" src="https://github.com/user-attachments/assets/8f97d0fe-0cd3-4043-84c1-d5b5eb36eaac" />
 </p>
 
-<p>text</p>
+<p>In order for the domain to recognize that this user is an Administrator, the user will need to be added to the group, "Domain Admins". To do this, right-click on the user and select "Add to a group..."</p>
 <p align="center">
   <img width="962" height="748" alt="a7" src="https://github.com/user-attachments/assets/6f1f55b9-ee22-45db-ba6d-aa6f82e34f3b" />
 </p>
 
-<p>text</p>
+<p>Enter the object name, "Domain Admins", click Check Names, then click OK. This will add this user to the domain group and effectively give them Admin permissions. This process can be repeated for different employees by creating different containers / users within the main directory. By creating a User, they are automatically added to the group "Users" and will be able to login to the Client VM using their individual credentials. Attempt to login to the Client VM with the newly created admin user.</p>
 <p align="center">
   <img width="962" height="748" alt="a8" src="https://github.com/user-attachments/assets/bd27915d-dc72-4196-b7e5-b259cfa5225f" />
 </p>
