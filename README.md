@@ -12,7 +12,6 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 - Microsoft Azure (Cloud Computing Platform)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell (used for account generation)
 
 <h2>Operating Systems Used </h2>
 
@@ -216,24 +215,24 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 
 <h3>Add Client Virtual Machine to the New Domain</h3>
 
-<p>text</p>
+<p>Connect to the Client VM using Remote Desktop. Navigate to the "About" tab in the settings. Click on "Rename this PC (Advanced)".</p>
 <p align="center">
-  
+  <img width="1202" height="934" alt="b1" src="https://github.com/user-attachments/assets/6558abf5-540e-45d1-b328-6a0508637aeb" />
 </p>
 
-<p>text</p>
+<p>Under the Computer Name tab, click on "Change..."</p>
 <p align="center">
-  
+  <img width="1202" height="934" alt="b2" src="https://github.com/user-attachments/assets/03971de1-87e8-48b4-a034-df88c81a213b" />
 </p>
 
-<p>text</p>
+<p>Select the option to add this VM as a member of the domain that was recently created.</p>
 <p align="center">
-  
+  <img width="329" height="420" alt="b3" src="https://github.com/user-attachments/assets/30b47f44-56a7-4f21-b359-e145bf222643" />
 </p>
 
-<p>text</p>
+<p>Once the Client VM is successfully added to the domain, it must be restarted.</p>
 <p align="center">
-  
+  <img width="299" height="149" alt="b4" src="https://github.com/user-attachments/assets/1e7df63e-dcb7-46c9-a7bb-d39fe3f62493" />
 </p>
 
 <h2>Step 4: Group Policy and Account Management</h2>
