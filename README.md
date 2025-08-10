@@ -25,7 +25,7 @@ This tutorial outlines the implementation of an Active Directory domain within A
 - Step 3: Deployment of Active Directory on Domain Controller
 - Step 4: Account Creation / Group Policy Management
 
-<h2>Step 1: Creation of Active Directory Infrastructure</h2>
+<h2 align="center">Step 1: Creation of Active Directory Infrastructure</h2>
 
 <h3 align="center">Create Resource Group</h3>
 <p align="center">The first step will be to create a resource group within an Azure subscription. This resource group will be the container for everything in this project. The name for the resource group in this tutorial will be "Active_Directory_Deployment".</p>
