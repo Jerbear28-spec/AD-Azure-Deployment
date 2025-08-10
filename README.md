@@ -5,7 +5,7 @@
 <h1 align="center">Creating an Active Directory Domain Using Microsoft Azure Virtual Machines</h1>
 
 <h2 align="center">Project Overview</h2>
-This tutorial outlines the implementation of an Active Directory domain using Azure virtual machines. In this lab, a virtual machine running Windows Server 2022 will be created and used as a Domain Controller. A Windows 10 virtual machine will be created and used as a "client" for this Active Directory deployment. User accounts will be created and managed on the Domain Controller, and these accounts will be able to login on this client virtual machine. This tutorial will assume a basic understanding of the Microsoft Azure Portal. <br />
+This tutorial outlines the implementation of an Active Directory domain within Azure virtual machines. In this lab, a virtual machine running Windows Server 2022 will be created and used as a Domain Controller. A Windows 10 virtual machine will be created and used as a "client" for this Active Directory deployment. User accounts will be created and managed on the Domain Controller, and these accounts will be able to login on this client virtual machine. This tutorial will assume a basic understanding of the Microsoft Azure Portal. <br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -95,6 +95,26 @@ This tutorial outlines the implementation of an Active Directory domain using Az
 
 <p align="center">
 <img width="756" height="103" alt="clientvnet" src="https://github.com/user-attachments/assets/87c24f7c-792c-472a-948e-aabc3e588381" />
+</p>
+
+<h3 align="center">Securing RDP Traffic</h3>
+
+<p align="center">By default, these virtual machines will have port 3389 open to the internet. Within Azure, the traffic to this port can be restricted to only allow connections from specific IP addresses. To do this, Click on the VM within Azure and navigate to Network Settings.</p>
+
+<p align="center">
+<img width="280" height="537" alt="c1" src="https://github.com/user-attachments/assets/441d2feb-1807-4ab3-905c-1e9b45196545" />
+</p>
+
+<p align="center">Within the Network Security Group, click on the rule labeled "RDP". This is the rule that leaves RDP traffic open to the internet.</p>
+
+<p align="center">
+<img width="828" height="388" alt="c2" src="https://github.com/user-attachments/assets/4172bfe4-7dd0-437d-8ad4-b0b13ffe43e7" />
+</p>
+
+<p align="center">Change the Source IP address to "My IP Address". This will limit the RDP traffic to only allow the PC your using. Be sure to click "Save" at the bottom to apply this new rule. Repeat this process for the other VM.</p>
+
+<p align="center">
+<img width="567" height="364" alt="c3" src="https://github.com/user-attachments/assets/10c37b19-2ae7-4e8c-973b-7c9b951a46d9" />
 </p>
 
 <h2 align="center">Step 2: IP Address Configuration</h2>
