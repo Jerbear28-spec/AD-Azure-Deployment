@@ -35,7 +35,7 @@ This tutorial outlines the implementation of an Active Directory domain within A
 </p>
 
 <h3 align="center">Create Virtual Network</h3>
-<p align="center">Within this new resource group, create a virtual network. Microsoft Azure provides optional paid security services for their virtual networks. These will not be necessary for the purposes of this tutorial. Azure alsp provides configuration settings for the address space of these networks. The default settings will be sufficient.</p>
+<p align="center">Within this new resource group, create a virtual network. Microsoft Azure provides optional paid security services for their virtual networks. These will not be necessary for the purposes of this tutorial. Azure also provides configuration settings for the address space of these networks. The default settings will be sufficient.</p>
 
 <p align="center">
   <img width="767" height="652" alt="Vnetcreate" src="https://github.com/user-attachments/assets/57014ce9-a8ed-480c-9611-bcce72d836c1" />
@@ -48,25 +48,25 @@ This tutorial outlines the implementation of an Active Directory domain within A
   <img width="774" height="693" alt="DC1create" src="https://github.com/user-attachments/assets/2fdd7db7-16da-4f4b-b696-a0e96c086e84" />
 </p>
 
-<p align="center">For the image, select 'Windows Server 2022 Datacenter: Azure Edition'. Use the specs recommended by the publisher of this image.</p>
+<p align="center">For the image, select 'Windows Server 2022 Datacenter: Azure Edition'. Use the specs recommended by the publisher.</p>
 
 <p align="center">
   <img width="771" height="64" alt="DC1image" src="https://github.com/user-attachments/assets/200b28e6-78fb-4e90-a072-01527fecb599" />
 </p>
 
-<p align="center">A username and password will need to be created for the admin account. Do not forget these credentials, as they are crucial to this setup.</p>
+<p align="center">A username and password will need to be created for the admin account. Do not forget these credentials, as they will be crucial to this setup.</p>
 
 <p align="center">
   <img width="762" height="248" alt="DC1adminacct" src="https://github.com/user-attachments/assets/f707a076-00e8-44e6-8b9b-f45ab2e98ffb" />
 </p>
 
-<p align="center">Allow connections to this VM through port 3389. This will allow remote connection to this VM. Later, this setting will be changed to only allow RDP traffic from trusted IP addresses (your personal machine).</p>
+<p align="center">Allow connections to this VM through port 3389. This will allow remote connection to this VM. Later, this setting will be changed to only allow RDP traffic from trusted IP addresses (ie. your personal machine).</p>
 
 <p align="center">
   <img width="767" height="273" alt="DC1portrules" src="https://github.com/user-attachments/assets/36720fbd-28ba-4e7b-a2dd-696c8cf664c9" />
 </p>
 
-<p align="center">The network will need to be set to the virtual network created earlier. The subnet configuration can be left with the default settings.</p>
+<p align="center">The network will need to be set to the virtual network that was created earlier. The subnet configuration can be left with the default settings.</p>
 
 <p align="center">
   <img width="755" height="183" alt="DC1network" src="https://github.com/user-attachments/assets/fe5d9229-03be-44f7-bc8a-40239abb4acd" />
@@ -79,7 +79,7 @@ This tutorial outlines the implementation of an Active Directory domain within A
 <img width="841" height="512" alt="clientcreate" src="https://github.com/user-attachments/assets/b4122312-488a-4fd4-bf75-d2a1eaacd1d4" />
 </p>
 
-<p align="center">For the image, choose Windows 10 Pro, and one of the VM sizes recommended by the image publisher.</p>
+<p align="center">For the image, choose Windows 10 Pro. Use one of the VM sizes recommended by the image publisher.</p>
 
 <p align="center">
 <img width="752" height="255" alt="clientimageandsize" src="https://github.com/user-attachments/assets/d181e417-ac0b-405e-b8d1-cbe64517ad23" />
@@ -111,7 +111,7 @@ This tutorial outlines the implementation of an Active Directory domain within A
 <img width="828" height="388" alt="c2" src="https://github.com/user-attachments/assets/4172bfe4-7dd0-437d-8ad4-b0b13ffe43e7" />
 </p>
 
-<p align="center">Change the Source IP address to "My IP Address". This will limit the RDP traffic to only allow the PC your using. Be sure to click "Save" at the bottom to apply this new rule. Repeat this process for the other VM.</p>
+<p align="center">Change the Source IP address to "My IP Address". This will limit the RDP traffic to only allow connections from the PC you're using. Be sure to click "Save" at the bottom to apply this new rule. Repeat this process for the other VM.</p>
 
 <p align="center">
 <img width="567" height="364" alt="c3" src="https://github.com/user-attachments/assets/10c37b19-2ae7-4e8c-973b-7c9b951a46d9" />
