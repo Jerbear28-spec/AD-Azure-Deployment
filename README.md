@@ -23,7 +23,7 @@ This tutorial outlines the implementation of an Active Directory domain within A
 - Step 1: Creation of Active Directory Infrastructure
 - Step 2: IP Address Configuration
 - Step 3: Deployment of Active Directory on Domain Controller
-- Step 4: Account Creation / Group Policy Management
+- Step 4: Account Creation
 
 <h2 align="center">Step 1: Creation of Active Directory Infrastructure</h2>
 
@@ -255,7 +255,7 @@ This tutorial outlines the implementation of an Active Directory domain within A
   <img width="299" height="149" alt="b4" src="https://github.com/user-attachments/assets/1e7df63e-dcb7-46c9-a7bb-d39fe3f62493" />
 </p>
 
-<h2 align="center">Step 4: Account Creation / Group Policy Management</h2>
+<h2 align="center">Step 4: Account Creation</h2>
 
 <h3 align="center">Create an Admin Account within Domain</h3>
 
